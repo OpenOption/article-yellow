@@ -1,0 +1,50 @@
+{
+  "name": "article.yellow",
+  "version": "1.0.0",
+  "description": "Be a reportrasher and build a intensive title.",
+  "main": "app/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenOption/article-yellow.git"
+  },
+  "keywords": [
+    "news",
+    "naver"
+  ],
+  "author": "Khinenw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenOption/article-yellow/issues"
+  },
+  "homepage": "https://github.com/OpenOption/article-yellow#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.9",
+    "less": "^3.0.1",
+    "less-loader": "^4.0.5",
+    "postcss": "^6.0.19",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-loader": "^2.1.0",
+    "vue-loader": "^14.1.1",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "vue": "^2.5.13",
+    "vue-ripple-directive": "^2.0.1",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  }
+}
